@@ -13,16 +13,48 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: My Website
-email: besterdavid01@gmail.com
+title: Your awesome title
+email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "cv" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+collections_dir: content
+collections:
+  - education
+  - experience
+  - interests
+  - skills
+  - social-media
+
+
+# Data that is used in your resume. If you don't have data to fill in you can leave it alone.(It may look a bit awkward on the profile in some cases.
+# example: email:       .   In this case, you can use a sentance like. email: I don't have one.)
 twitter_username: jekyllrb
 github_username:  jekyll
+job: Developer
+my_name: David
+my_middle-name:
+my_surname: Bešter
+my_description: >- # Write description of your profile here.
+  I am a 17 year old Student coming from Kranj, Slovenia. I was born in Kranj and am living there ever since. I started digging into programming because I
+  had an internship at the firm called 3fs. This intersts me because I have been into computers and games ever since I was 5 years old. My dream in life is
+  to create an MMORPG game that has been on my mind for 3 years now. I also love sports, movies, comicbook characters and dogs. I also have a cat x_x
+birth_date: 19 # Your birth date.
+birth_month: Apr # Your birth month. Use "Jan, Feb, Mar, Dec" syntax.
+birth_year: 2001 # Your birth year.
+birth_city: Kranj # Your birth city.
+birth_country: Slovenia # Your birth country.
+
+my_email_personal: besterdavid01@gmail.com
+my_email_business: david.projects.01@gmail.com
+
+
+
+fav-quote: You can change what you do, but you can't change what you want. # Insert your favorite quote here.
+quote-author: Thomas Shelby     # Insert your favorite quote author here.
 
 # Build settings
 markdown: kramdown
